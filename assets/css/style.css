@@ -3,7 +3,7 @@
 /*----------------------------------------Colors*/
 
 .bg-color-name {
-    background-color: #000000;
+    background-color: #fff;
 }
 
 .menu-color-home {
@@ -22,7 +22,7 @@
     background-color: #525252;
 }
 
-/*----------------------------------------Heading*/
+/*----------------------------------------Header*/
 
 header {
     margin: 0;
@@ -34,13 +34,12 @@ header {
 
 .name {
     font-family: "Oswald", sans-serif;
-    color: #fff;
+    color: #000;
     font-weight: 700;
     font-size: 75px;
     margin-top: 30px;
     text-transform: uppercase;
 }
-
 
 .list-inline-item:not(:last-child) {
     margin: 0;
@@ -95,4 +94,43 @@ header {
 .hvr-sweep-to-top:before {
     background: rgba(0, 0, 0, 0.2);
     height: 128px;
+}
+
+/*----------------------------------------Footer*/
+
+footer {
+    background-color: #fff;
+    color: #000;
+    min-height: 128px;
+    margin: 0;
+}
+
+.social-links {
+    padding-top: 30px;
+}
+
+.social-links li a i {
+    width: 32px;
+    height: 32px;
+    padding: 12px 0;
+    border-radius: 50%;
+    font-size: 13px;
+    line-height: 7px;
+    text-align: center;
+    color: #fafafa;
+    background: #e67e22;
+    transition: all 0.35s ease-in-out;
+    -moz-transition: all 0.35s ease-in-out;
+    -webkit-transition: all 0.35s ease-in-out;
+    -o-transition: all 0.35s ease-in-out;
+}
+
+.social-links li a i:hover {
+    background: #9b59b6;
+}
+
+#footer-info {
+    padding: 20px;
+    width: 253px;
+    margin: 0 auto;
 }
