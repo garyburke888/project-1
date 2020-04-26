@@ -3,7 +3,7 @@
 /*----------------------------------------Colors*/
 
 .bg-color-name {
-    background-color: #fff;
+    background-color: #fafafa;
 }
 
 .menu-color-home {
@@ -67,7 +67,7 @@ header {
 .menuitem a {
     width: 100%;
     text-decoration: none;
-    color: #fff;
+    color: #fafafa;
     height: 128px;
 }
 
@@ -96,10 +96,78 @@ header {
     height: 128px;
 }
 
+/*----------------------------------------Whats Going On*/
+
+.section-heading h2 {
+    font-family: "Oswald", sans-serif;
+    text-align: center;
+    color: #000;
+    margin-top: 30px;
+    text-transform: uppercase;
+}
+
+.feature {
+    text-align: center;
+    padding: 0px 20px 30px 20px;
+}
+
+.feature i {
+    font-size: 26px;
+    line-height: 26px;
+}
+
+.feature .btn {
+    background-color: #3498db;
+    border-color: #3498db;
+    border-radius: 15px;
+    min-width: 100px;
+    font-weight: bold;
+    margin-top: 10px;
+    color: #fafafa;
+    transition: all 0.5s ease-in-out;
+    -moz-transition: all 0.5s ease-in-out;
+    -webkit-transition: all 0.5s ease-in-out;
+    -o-transition: all 0.5s ease-in-out;
+}
+
+.feature .btn:hover {
+    background-color: #525252;
+    border-color: #525252;
+}
+
+/*----------------------------------------Horizontal Rules*/
+
+.hz-rule {
+    width: 90%;
+    height: 1px;
+    border: 0;
+    background-color: #000;
+}
+
+/*----------------------------------------About*/
+
+.about-text {
+    padding: 0px 20px 30px 20px;
+}
+
+/*----------------------------------------Table*/
+
+.tour {
+    text-align: center;
+}
+
+/*----------------------------------------Contact Form*/
+
+.jezz-form {
+    padding-top: 10px;
+    margin: 0 auto;
+    max-width: 600px;
+}
+
 /*----------------------------------------Footer*/
 
 footer {
-    background-color: #fff;
+    background-color: #fafafa;
     color: #000;
     min-height: 128px;
     margin: 0;
@@ -119,10 +187,10 @@ footer {
     text-align: center;
     color: #fafafa;
     background: #e67e22;
-    transition: all 0.35s ease-in-out;
-    -moz-transition: all 0.35s ease-in-out;
-    -webkit-transition: all 0.35s ease-in-out;
-    -o-transition: all 0.35s ease-in-out;
+    transition: all 0.5s ease-in-out;
+    -moz-transition: all 0.5s ease-in-out;
+    -webkit-transition: all 0.5s ease-in-out;
+    -o-transition: all 0.5s ease-in-out;
 }
 
 .social-links li a i:hover {
