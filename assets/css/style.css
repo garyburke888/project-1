@@ -3,7 +3,7 @@
 /*----------------------------------------Colors*/
 
 .bg-color-name {
-    background-color: #fafafa;
+    background-color: #fff;
 }
 
 .menu-color-home {
@@ -37,7 +37,7 @@ header {
     color: #000;
     font-weight: 700;
     font-size: 75px;
-    margin-top: 30px;
+    margin-top: 10px;
     text-transform: uppercase;
 }
 
@@ -59,7 +59,7 @@ header {
 }
 
 .menuitem {
-    height: 128px;
+    height: 108px;
     text-align: center;
     padding: 0;
 }
@@ -68,7 +68,7 @@ header {
     width: 100%;
     text-decoration: none;
     color: #fafafa;
-    height: 128px;
+    height: 108px;
 }
 
 .menuitem a i {
@@ -93,7 +93,7 @@ header {
 
 .hvr-sweep-to-top:before {
     background: rgba(0, 0, 0, 0.2);
-    height: 128px;
+    height: 108px;
 }
 
 /*----------------------------------------Whats Going On*/
@@ -167,7 +167,7 @@ header {
 /*----------------------------------------Footer*/
 
 footer {
-    background-color: #fafafa;
+    background-color: #fff;
     color: #000;
     min-height: 128px;
     margin: 0;
@@ -197,8 +197,8 @@ footer {
     background: #9b59b6;
 }
 
-#footer-info {
+.footer-info {
     padding: 20px;
-    width: 253px;
     margin: 0 auto;
+    max-width: 260px;
 }
