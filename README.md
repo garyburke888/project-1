@@ -1,39 +1,95 @@
-<img src="https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png" style="margin: 0;">
+<h1>JEZZEBELLE</h1>
+A basic website for a band. Website features include a button-style menu, a homepage with an image carousel, featured content and mailing list sign-up, an about page with band bio, a tour page with a table of upcoming tour dates and a contact page with a contact form.
 
-Welcome garyburke888,
+The main purpose of this website is to provide and online presence for the band that looks sleek and professional and matches their image and music style. It should provide easily accessible information for fans such as images, music, video, news, tour dates and social media links.
 
-This is the Code Institute student template for Gitpod. We have preinstalled all of the tools you need to get started. You can safely delete this README.md file, or change it for your own project.
+<h1>UX</h1>
+ Ideal client for this website is;
 
-## Gitpod Reminders
+* A listener who heard the band on the radio / in a movie and want to hear more.
+* A gig goer who saw the band live and wants to find out about more shows.
+* A fan who wants to find links to the bands social media.
+* A fan who wants to join the bands mailing list.
+* A booker / journalist who wants to book / get in touch with the band.
 
-To run a frontend (HTML, CSS, Javascript only) application in Gitpod, in the terminal, type:
+Visitors to this website are;
 
-`python3 -m http.server`
+* Looking for more info on a band they saw / heard about.
+* Looking to further connect with a band they’ve heard / seen.
+* Looking to book the band for a show.
+* Looking to interview the band.
 
-A blue button should appear to click: *Make Public*,
+This website is;
 
-Another blue button should appear to click: *Open Browser*.
+* Clean, clear, concise, sleek and professional.
+* Easy to navigate.
+* Minimalist.
+* Fast loading.
 
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
+Client stories:
 
-A blue button should appear to click: *Make Public*,
+* When I visit this website I want to see images, hear more music and see videos of the band.
+* I want to contact the band.
+* I want to quickly see where and when the band are touring and if tickets for shows are required I want to know where to get them
+* I want to find the bands Twitter handle (or other social media).
 
-Another blue button should appear to click: *Open Browser*.
+<h1>FEATURES</h1>
 
-In Gitpod you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the backend lessons.
+Each page features an identical header with logo/title and navigation menu. Each page also features an identical footer with social media links.
 
-## Updates Since The Instructional Video
+* Header title (band logo) is the same on each page and a simple design, band title on a white background.
+* Navigation menu is a large coloured button style and is used to give an app feel to the website, as well as a change from the norm. The buttons remain the same size on all screens but change location slightly to allow them keep their presence.
+* Footer social media links are round style with a hover effect.
 
-We continually tweak and adjust this template to help give you the best experience. Here are the updates since the original video was made:
+The [Home](https://garyburke888.github.io/project-1/) page features an image carousel with three strong band images on rotation. Other than the header, this is the first thing visitors to the website will see. The Home page also has a ‘featured content’ section with three features; latest music, latest video and latest news. Each feature contains a snippet of information on its subject, with a ‘read more’ link to view the rest of the content.
 
-**April 16 2020:** The template now automatically installs MySQL instead of relying on the Gitpod MySQL image. The message about a Python linter not being installed has been dealt with, and the set-up files are now hidden in the Gitpod file explorer.
+The [About](https://garyburke888.github.io/project-1/about.html) page features a band bio and nothing else.
 
-**April 13 2020:** Added the _Prettier_ code beautifier extension instead of the code formatter built-in to Gitpod.
+The [Tour](https://garyburke888.github.io/project-1/tour.html) page features a table of upcoming shows. The information provided is the minimum needed; date, city and venue. There is one link at the bottom of the table to purchase tickets for upcoming events.
 
-**February 2020:** The initialisation files now _do not_ auto-delete. They will remain in your project. You can safely ignore them. They just make sure that your workspace is configured correctly each time you open it. It will also prevent the Gitpod configuration popup from appearing.
+The [Contact](https://garyburke888.github.io/project-1/contact.html) page features a contact form with inputs for name, email address and comments. It also features a check box to allow the user to specify they are a real person before submission.
 
-**December 2019:** Added Eventyret's Bootstrap 4 extension. Type `!bscdn` in a HTML file to add the Bootstrap boilerplate. Check out the <a href="https://github.com/Eventyret/vscode-bcdn" target="_blank">README.md file at the official repo</a> for more options.
+<h1>TECHNOLOGIES USED</h1>
 
---------
+* [HTML](http://www.w3schools.com)
+* [CSS](http://www.w3schools.com)
+* [Bootstrap](http://www.getbootstrap.com) 
+* [JavaScript](http://www.javascript.com) 
+* [GitHub & GitPod](http://www.github.com) 
+* [Font Awesome](http://www.fontawesome.com) 
+* [Google Fonts](http://fonts.google.com) 
+* [Cloudflare](http://www.cloudflare.com)
 
-Happy coding!
+<h1>TESTING</h1>
+
+?
+
+<h1>DEPLOYMENT</h1>
+
+This website was developed using GitPod, committed to Git and pushed to GitHub.
+
+This website was deployed to GitHub Pages in the following manor:
+
+* Log into GitHub.
+* Select the Project-1 repository from the list.
+* Select ‘settings’ from the top menu.
+* Scroll down to the ‘GitHub Pages’ section.
+* Select ‘Master Branch’ from the ‘source’ drop-down menu.
+* The page will refresh and they website has been deployed.
+* The link to the website appears within the ‘GitHub Pages’ section.
+
+<h1>CREDITS</h1>
+
+<h2>CODE</h2>
+
+* The idea and basic code structure for the main menu came from the ‘Resume’ site in the code institute course content.
+* The idea and basic code structure for the featured content section came from the ‘Whiskey Drop’ site in the code institute course content.
+* The code for the carousel, table and contact form is from bootstrap.
+* The style of the social media links came from code institute course content.
+* Icons from Font Awesome are used throughout.
+
+<h1>ACKNOWLEDGEMENTS</h1>
+ 
+* Code Institute – some design ideas and code structure.
+* Gerard McBride – mentor.
+* Gary Burke – designer.
