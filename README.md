@@ -3,6 +3,7 @@ A basic website for a band. Website features include a button-style menu, a home
 
 The main purpose of this website is to provide and online presence for the band that looks sleek and professional and matches their image and music style. It should provide easily accessible information for fans such as images, music, video, news, tour dates and social media links.
 
+![Screenshot](https://ee6412e0-99d3-4e71-866d-aa3000f3bf3b.ws-eu01.gitpod.io/files/download/?id=45d1dfce-a69f-45ac-9a87-b164bbda69d9)
 <h1>UX</h1>
  Ideal client for this website is;
 
