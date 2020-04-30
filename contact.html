@@ -68,7 +68,7 @@
                             <input type="checkbox" class="form-check-input" id="InputCheck">
                             <label class="form-check-label" for="InputCheck">I'm a real person</label>
                         </div><br>
-                        <button type="submit" class="btn btn-primary">Submit</button>
+                        <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#myModal">Submit</button>
                         </form>
                     </div>
                 </div>
@@ -80,42 +80,59 @@
                 </div>
     </section>
 
+    <div class="modal fade" id="myModal">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                    <div class="modal-header">
+                        <h4 class="modal-title">Thanks!</h4>
+                        <button type="button" class="close" data-dismiss="modal">x</button>
+                    </div>
+                    <div class="modal-body">
+                        <p>A success message could be added here.</p>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+                    </div>
+            </div>
+        </div>
+    </div>
+
     <footer class="container-fluid">
-        <div class="row no-gutters">
-            <div class="col-12 footer-info">
+        <div class="row no-gutters footer-info">
+            <div class="col-12">
                 <ul class="list-inline social-links">
                     <li class="list-inline-item">
-                        <a target="_blank" href="#">
+                        <a target="_blank" href="http://www.facebook.com">
                             <i class="fa fa-facebook" aria-hidden="true"></i>
                             <span class="sr-only">Facebook</span>
                         </a>
                     </li>
                     <li class="list-inline-item">
-                        <a target="_blank" href="#">
+                        <a target="_blank" href="http://www.twitter.com">
                             <i class="fa fa-twitter" aria-hidden="true"></i>
                             <span class="sr-only">Twitter</span>
                         </a>
                     </li>
                     <li class="list-inline-item">
-                        <a target="_blank" href="#">
+                        <a target="_blank" href="http://www.linkedin.com">
                             <i class="fa fa-linkedin" aria-hidden="true"></i>
                             <span class="sr-only">LinkedIn</span>
                         </a>
                     </li>
                     <li class="list-inline-item">
-                        <a target="_blank" href="#">
+                        <a target="_blank" href="http://www.pinterest.com">
                             <i class="fa fa-pinterest" aria-hidden="true"></i>
                             <span class="sr-only">Pinterest</span>
                         </a>
                     </li>
                     <li class="list-inline-item">
-                        <a target="_blank" href="#">
+                        <a target="_blank" href="http://www.instagram.com">
                             <i class="fa fa-instagram" aria-hidden="true"></i>
                             <span class="sr-only">Instagram</span>
                         </a>
                     </li>
                     <li class="list-inline-item">
-                        <a target="_blank" href="#">
+                        <a target="_blank" href="http://www.youtube.com">
                             <i class="fa fa-youtube" aria-hidden="true"></i>
                             <span class="sr-only">YouTube</span>
                         </a>

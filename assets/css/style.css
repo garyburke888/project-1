@@ -34,6 +34,10 @@ header {
     margin-left: 5%;
 }
 
+.read-more {
+    text-decoration-color: #fff;
+}
+
 .name {
     font-family: "Oswald", sans-serif;
     color: #000;
