@@ -1,9 +1,9 @@
 <h1>JEZZEBELLE</h1>
-A basic website for a band. Website features include a button-style menu, a homepage with an image carousel, featured content and mailing list sign-up, an about page with band bio, a tour page with a table of upcoming tour dates and a contact page with a contact form.
+A basic website for a band. Website features include a button-style menu, a homepage with an image carousel, mailing list sign-up and featured content, an about page with band bio, a tour page with a table of upcoming tour dates and a contact page with a contact form.
 
 The main purpose of this website is to provide and online presence for the band that looks sleek and professional and matches their image and music style. It should provide easily accessible information for fans such as images, music, video, news, tour dates and social media links.
 
-![Screenshot](https://ee6412e0-99d3-4e71-866d-aa3000f3bf3b.ws-eu01.gitpod.io/files/download/?id=45d1dfce-a69f-45ac-9a87-b164bbda69d9)
+![Screenshot](/assets/images/Screenshot.jpg)
 <h1>UX</h1>
  Ideal client for this website is;
 
@@ -31,20 +31,20 @@ Client stories:
 
 * When I visit this website I want to see images, hear more music and see videos of the band.
 * I want to contact the band.
-* I want to quickly see where and when the band are touring and if tickets for shows are required I want to know where to get them
+* I want to quickly see where and when the band are touring and if tickets for shows are required I want to know where to get them.
 * I want to find the bands Twitter handle (or other social media).
 
 <h1>FEATURES</h1>
 
 Each page features an identical header with logo/title and navigation menu. Each page also features an identical footer with social media links.
 
-* Header title (band logo) is the same on each page and a simple design, band title on a white background.
+* Header title (band logo) is the same on each page and a simple design, band name on a white background.
 * Navigation menu is a large coloured button style and is used to give an app feel to the website, as well as a change from the norm. The buttons remain the same size on all screens but change location slightly to allow them keep their presence.
 * Footer social media links are round style with a hover effect.
 
-The [Home](https://garyburke888.github.io/project-1/) page features an image carousel with three strong band images on rotation. Other than the header, this is the first thing visitors to the website will see. The Home page also has a ‘featured content’ section with three features; latest music, latest video and latest news. Each feature contains a snippet of information on its subject, with a ‘read more’ link to view the rest of the content.
+The [Home](https://garyburke888.github.io/project-1/) page features an image carousel with three strong band images on rotation. Other than the header, this is the first thing visitors to the website will see. The home page also features a mailing list sign-up button. The Home page also has a ‘featured content’ section with three features; latest music, latest video and latest news. Each feature contains a snippet of information on its subject, with a ‘read more’ link to view the rest of the content.
 
-The [About](https://garyburke888.github.io/project-1/about.html) page features a band bio and nothing else.
+The [About](https://garyburke888.github.io/project-1/about.html) page features a band bio.
 
 The [Tour](https://garyburke888.github.io/project-1/tour.html) page features a table of upcoming shows. The information provided is the minimum needed; date, city and venue. There is one link at the bottom of the table to purchase tickets for upcoming events.
 
@@ -83,14 +83,15 @@ This website was deployed to GitHub Pages in the following manor:
 
 <h2>CODE</h2>
 
-* The idea and basic code structure for the main menu came from the ‘Resume’ site in the code institute course content.
+* The idea and basic code structure for the main  nav menu came from the ‘Resume’ site in the code institute course content.
 * The idea and basic code structure for the featured content section came from the ‘Whiskey Drop’ site in the code institute course content.
-* The code for the carousel, table and contact form is from bootstrap.
-* The style of the social media links came from code institute course content.
+* The code for the carousel, mailing list sign-up, table and contact form is from bootstrap.
+* Bootstrap modals are used throughout for buttons that don't link anywhere yet.
+* The styling of the social media links came from code institute course content.
 * Icons from Font Awesome are used throughout.
 
 <h1>ACKNOWLEDGEMENTS</h1>
  
-* Code Institute – some design ideas and code structure.
+* Code Institute – design ideas and code structure.
 * Gerard McBride – mentor.
 * Gary Burke – designer.
