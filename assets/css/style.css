@@ -34,10 +34,6 @@ header {
     margin-left: 5%;
 }
 
-.read-more {
-    text-decoration-color: #fff;
-}
-
 .name {
     font-family: "Oswald", sans-serif;
     color: #000;
@@ -112,9 +108,14 @@ header {
     text-transform: uppercase;
 }
 
+.section-heading p {
+    text-align: center;
+    margin-top: 30px;
+}
+
 .feature {
     text-align: center;
-    padding: 0px 20px 30px 20px;
+    padding: 30px 15px 30px 15px;
 }
 
 .feature i {
@@ -122,23 +123,9 @@ header {
     line-height: 26px;
 }
 
-.feature .btn {
-    background-color: #3498db;
-    border-color: #3498db;
-    border-radius: 15px;
-    min-width: 100px;
-    font-weight: bold;
-    margin-top: 10px;
-    color: #fafafa;
-    transition: all 0.5s ease-in-out;
-    -moz-transition: all 0.5s ease-in-out;
-    -webkit-transition: all 0.5s ease-in-out;
-    -o-transition: all 0.5s ease-in-out;
-}
-
-.feature .btn:hover {
-    background-color: #525252;
-    border-color: #525252;
+.whats-going-on {
+    width: 90%;
+    margin: auto;
 }
 
 /*----------------------------------------Horizontal Rules*/
@@ -153,13 +140,16 @@ header {
 /*----------------------------------------About*/
 
 .about-text {
-    padding: 0px 20px 30px 20px;
+    width: 90%;
+    margin: auto;
 }
 
 /*----------------------------------------Table*/
 
 .tour {
     text-align: center;
+    width: 90%;
+    margin: auto;
 }
 
 /*----------------------------------------Contact Form*/

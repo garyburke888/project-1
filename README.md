@@ -42,7 +42,7 @@ Each page features an identical header with logo/title and navigation menu. Each
 * Navigation menu is a large coloured button style and is used to give an app feel to the website, as well as a change from the norm. The buttons remain the same size on all screens but change location slightly to allow them keep their presence.
 * Footer social media links are round style with a hover effect.
 
-The [Home](https://garyburke888.github.io/project-1/) page features an image carousel with three strong band images on rotation. Other than the header, this is the first thing visitors to the website will see. The home page also features a mailing list sign-up button. The Home page also has a ‘featured content’ section with three features; latest music, latest video and latest news. Each feature contains a snippet of information on its subject, with a ‘read more’ link to view the rest of the content.
+The [Home](https://garyburke888.github.io/project-1/) page features an image carousel with three strong band images on rotation. Other than the header, this is the first thing visitors to the website will see. The home page also features a mailing list sign-up button. The Home page also has a ‘featured content’ section with three features; latest music (with link to an .mp3), latest video and latest news. Each feature contains a snippet of information on its subject, with a ‘read more’ link to view the rest of the content.
 
 The [About](https://garyburke888.github.io/project-1/about.html) page features a band bio.
 
@@ -63,7 +63,10 @@ The [Contact](https://garyburke888.github.io/project-1/contact.html) page featur
 
 <h1>TESTING</h1>
 
-?
+* Site was tested on Chrome, Safari, Edge, Mozilla & Firefox.
+* Site was tested on various screens / sizes including desktop, laptop, iPhone & iPad.
+* All links and buttons were tested and are active.
+* Code was checked here: https://validator.w3.org/.
 
 <h1>DEPLOYMENT</h1>
 
@@ -87,6 +90,7 @@ This website was deployed to GitHub Pages in the following manor:
 * The idea and basic code structure for the featured content section came from the ‘Whiskey Drop’ site in the code institute course content.
 * The code for the carousel, mailing list sign-up, table and contact form is from bootstrap.
 * Bootstrap modals are used throughout for buttons that don't link anywhere yet.
+* Bootstrap buttons are used throughout.
 * The styling of the social media links came from code institute course content.
 * Icons from Font Awesome are used throughout.
 
