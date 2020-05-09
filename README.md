@@ -67,6 +67,7 @@ The [Contact](https://garyburke888.github.io/project-1/contact.html) page featur
 * Site was tested on various screens / sizes including desktop, laptop, iPhone & iPad.
 * All links and buttons were tested and are active.
 * Code was checked here: https://validator.w3.org/.
+* Site was forwarded to friends and family for feedback on user experience.
 
 <h1>DEPLOYMENT</h1>
 
@@ -81,6 +82,13 @@ This website was deployed to GitHub Pages in the following manor:
 * Select ‘Master Branch’ from the ‘source’ drop-down menu.
 * The page will refresh and they website has been deployed.
 * The link to the website appears within the ‘GitHub Pages’ section.
+
+<h1>FUTURE DEVELOPMENT PLANS</h1>
+
+* Music page featuring an embedded music player with latest songs / unreleased tracks.
+* Video page featuring an embedded video player using a YouTube API or similar.
+* Online shop selling CD's, clothing and other band related merchandise.
+* Gallery page featuring much more band images.
 
 <h1>CREDITS</h1>
 
